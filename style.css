@@ -28,7 +28,7 @@
 .cart{
     display: none !important;
 }
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:480px) {
     .cart{
         color: #5fd144;
         font-size: x-large !important;
