@@ -1,0 +1,25 @@
+{
+  "name": "stonehenge.js",
+  "version": "0.0.19",
+  "description": "Tiny jQuery plugin to display mouse/finger draggable carousel",
+  "main": "stonehenge.js",
+  "style": "stonehenge.css",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:optimumweb/stonehenge.js.git"
+  },
+  "keywords": [
+    "jquery",
+    "carousel",
+    "draggable",
+    "responsive",
+    "mobile"
+  ],
+  "author": "Jonathan Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optimumweb/stonehenge.js/issues"
+  },
+  "homepage": "https://github.com/optimumweb/stonehenge.js"
+}

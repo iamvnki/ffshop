@@ -1,0 +1,967 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Popup Box\n"
+"POT-Creation-Date: 2022-02-04 12:09+0200\n"
+"PO-Revision-Date: 2021-11-03 09:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: popup-box.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/assets/js/wp-color-picker-alpha.js:92
+msgid "Color value"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:113
+msgid "Select Color"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:124
+msgid "Default"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:125
+msgid "Select default color"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:129
+msgid "Clear"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:130
+msgid "Clear color"
+msgstr ""
+
+#: admin/class-admin.php:72 admin/settings/tabs.php:16
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin.php:91
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">%2$s</a>! Please <a "
+"href=\"%3$s\" target=\"_blank\">rate us on %4$s</a>"
+msgstr ""
+
+#: admin/class-admin.php:273 admin/page-main.php:23
+msgid "Item Updated"
+msgstr ""
+
+#: admin/class-admin.php:329
+msgid "Please upload a valid .json file"
+msgstr ""
+
+#: admin/class-admin.php:329 admin/class-admin.php:335
+msgid "Error"
+msgstr ""
+
+#: admin/class-admin.php:335
+msgid "Please upload a file to import"
+msgstr ""
+
+#: admin/class-list-table.php:105 admin/class-list-table.php:236
+msgid "Untitle"
+msgstr ""
+
+#: admin/class-list-table.php:112
+msgid "Edit"
+msgstr ""
+
+#: admin/class-list-table.php:113
+msgid "Duplicate"
+msgstr ""
+
+#: admin/class-list-table.php:115
+msgid "Delete"
+msgstr ""
+
+#: admin/class-list-table.php:156 admin/page-settings.php:26
+msgid "Test Mode"
+msgstr ""
+
+#: admin/class-list-table.php:157
+msgid "Status"
+msgstr ""
+
+#: admin/class-list-table.php:226
+msgid "On"
+msgstr ""
+
+#: admin/class-list-table.php:227
+msgid "Off"
+msgstr ""
+
+#: admin/class-list-table.php:229
+msgid "Click for Deactivate the popup."
+msgstr ""
+
+#: admin/class-list-table.php:230
+msgid "Click for Activate the popup."
+msgstr ""
+
+#: admin/class-list-table.php:233 admin/page-settings.php:36
+msgid "Activated"
+msgstr ""
+
+#: admin/class-list-table.php:234
+msgid "Deactivated"
+msgstr ""
+
+#: admin/class-list-table.php:314
+msgid "Delate"
+msgstr ""
+
+#: admin/page-list.php:25
+msgid "Search"
+msgstr ""
+
+#: admin/page-main.php:20
+msgid "Item Added"
+msgstr ""
+
+#: admin/page-main.php:30
+msgid "Item Deleted"
+msgstr ""
+
+#: admin/page-main.php:42
+msgid "Popup Activated"
+msgstr ""
+
+#: admin/page-main.php:49
+msgid "Popup Deactivated"
+msgstr ""
+
+#: admin/page-main.php:57
+msgid "List"
+msgstr ""
+
+#: admin/page-main.php:58
+msgid "Add new"
+msgstr ""
+
+#: admin/page-main.php:59
+msgid "Pro Features"
+msgstr ""
+
+#: admin/page-main.php:60
+msgid "Rate"
+msgstr ""
+
+#: admin/page-main.php:61
+msgid "Support"
+msgstr ""
+
+#: admin/page-main.php:62
+msgid "Import/Export"
+msgstr ""
+
+#: admin/page-main.php:75
+msgid "Add New"
+msgstr ""
+
+#: admin/page-main.php:109 admin/settings/database.php:33
+msgid "Update"
+msgstr ""
+
+#: admin/page-settings.php:32
+msgid "If test mode is enabled, the popup will show for admin only"
+msgstr ""
+
+#: admin/page-settings.php:42
+msgid ""
+"If check - the popup will show on the frontend. If uncheck - popup not "
+"displayed on the frontend."
+msgstr ""
+
+#: admin/page-settings.php:54
+msgid "Enter title here"
+msgstr ""
+
+#: admin/page-settings.php:59
+msgid "Register an item name"
+msgstr ""
+
+#: admin/page-settings.php:85
+msgid "Live Preview"
+msgstr ""
+
+#: admin/page-support.php:44
+msgid "Please, Enter your Name."
+msgstr ""
+
+#: admin/page-support.php:47
+msgid "Please, Enter your Email."
+msgstr ""
+
+#: admin/page-support.php:50
+msgid "Please, Enter Subject of Message."
+msgstr ""
+
+#: admin/page-support.php:53
+msgid "Please, Enter your Message."
+msgstr ""
+
+#: admin/page-support.php:85
+msgid "Your Message sent to the Support."
+msgstr ""
+
+#: admin/page-support.php:89
+msgid ""
+"Sorry, but message did not send. Please, contact us support@wow-company.com"
+msgstr ""
+
+#: admin/page-support.php:139
+msgid "Issue"
+msgstr ""
+
+#: admin/page-support.php:140
+msgid "Idea"
+msgstr ""
+
+#: admin/page-tools.php:23
+msgid "Export Settings"
+msgstr ""
+
+#: admin/page-tools.php:26
+#, php-format
+msgid ""
+"Export the  settings for %s as a .json file. This allows you to easily "
+"import the configuration into another site."
+msgstr ""
+
+#: admin/page-tools.php:30
+msgid "Export"
+msgstr ""
+
+#: admin/page-tools.php:38
+msgid "Import Settings"
+msgstr ""
+
+#: admin/page-tools.php:41
+#, php-format
+msgid ""
+"Import the %s settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+
+#: admin/page-tools.php:49
+msgid "Update item if item already exists."
+msgstr ""
+
+#: admin/page-tools.php:57
+msgid "Import"
+msgstr ""
+
+#: admin/settings/database.php:20
+msgid "Save"
+msgstr ""
+
+#: admin/settings/display.php:23
+msgid "Display on site"
+msgstr ""
+
+#: admin/settings/display.php:46
+msgid "Other Settings"
+msgstr ""
+
+#: admin/settings/options/content.php:12
+msgid "Popup Content"
+msgstr ""
+
+#: admin/settings/options/display.php:17
+msgid "All posts and pages"
+msgstr ""
+
+#: admin/settings/options/display.php:18
+msgid "All posts"
+msgstr ""
+
+#: admin/settings/options/display.php:19
+msgid "All pages"
+msgstr ""
+
+#: admin/settings/options/display.php:20
+msgid "Posts with certain IDs"
+msgstr ""
+
+#: admin/settings/options/display.php:21
+msgid "Pages with certain IDs"
+msgstr ""
+
+#: admin/settings/options/display.php:22
+msgid "Posts in Categorys with IDs"
+msgstr ""
+
+#: admin/settings/options/display.php:23
+msgid "All posts. except..."
+msgstr ""
+
+#: admin/settings/options/display.php:24
+msgid "All pages, except..."
+msgstr ""
+
+#: admin/settings/options/display.php:28
+msgid "Display on"
+msgstr ""
+
+#: admin/settings/options/display.php:35
+msgid "Choose a condition to target to specific content."
+msgstr ""
+
+#: admin/settings/options/display.php:41
+msgid "ID's"
+msgstr ""
+
+#: admin/settings/options/display.php:46 admin/settings/options/display.php:48
+msgid "Enter IDs, separated by comma."
+msgstr ""
+
+#: admin/settings/options/display.php:54
+msgid "Test mode"
+msgstr ""
+
+#: admin/settings/options/display.php:61
+#: admin/settings/options/shortcodes.php:65
+msgid "No"
+msgstr ""
+
+#: admin/settings/options/display.php:62
+#: admin/settings/options/shortcodes.php:66
+msgid "Yes"
+msgstr ""
+
+#: admin/settings/options/display.php:64
+msgid "If test mode is enabled, the notification will show for admin only"
+msgstr ""
+
+#: admin/settings/options/settings.php:14 admin/settings/settings.php:24
+msgid "Triggers"
+msgstr ""
+
+#: admin/settings/options/settings.php:21
+msgid "Auto"
+msgstr ""
+
+#: admin/settings/options/settings.php:22
+msgid "Click"
+msgstr ""
+
+#: admin/settings/options/settings.php:23
+msgid "Scrolled"
+msgstr ""
+
+#: admin/settings/options/settings.php:25
+msgid "Select the trigger when the popup must be opening."
+msgstr ""
+
+#: admin/settings/options/settings.php:30
+msgid "Delay time"
+msgstr ""
+
+#: admin/settings/options/settings.php:41
+msgid "Delay time in seconds for opening the popup."
+msgstr ""
+
+#: admin/settings/options/settings.php:45
+msgid "Scroll distance"
+msgstr ""
+
+#: admin/settings/options/settings.php:57
+#, php-format
+msgid "Scroll distance of the page in % for an opening popup."
+msgstr ""
+
+#: admin/settings/options/settings.php:61
+msgid "Show only once"
+msgstr ""
+
+#: admin/settings/options/settings.php:78
+msgid ""
+"Defines if the popup will set a cookie and hide it self for a period of time "
+"from the user.  Set the cookie in days."
+msgstr ""
+
+#: admin/settings/options/settings.php:82
+msgid "Block the page"
+msgstr ""
+
+#: admin/settings/options/settings.php:88
+msgid "Block the page for scrolling."
+msgstr ""
+
+#: admin/settings/options/settings.php:95 admin/settings/options/style.php:388
+#: admin/settings/style.php:86
+msgid "Overlay"
+msgstr ""
+
+#: admin/settings/options/settings.php:101
+msgid "Defines if the overlay can close the popup."
+msgstr ""
+
+#: admin/settings/options/settings.php:105
+msgid "Esc"
+msgstr ""
+
+#: admin/settings/options/settings.php:111
+msgid "Enabled the ESC key to close the popup."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:17
+msgid "Shortcode Type"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:23
+msgid "Button"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:25
+msgid "Select the shortcode type."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:31
+msgid "Button Type"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:37
+msgid "Popup Close Button"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:38
+msgid "Button with Link"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:40
+msgid "Set the type of the popup button"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:44
+msgid "Button Size"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:50
+msgid "Small"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:51
+msgid "Normal"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:52
+msgid "Medium"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:53
+msgid "Large"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:55
+msgid "Select the size of the button."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:59
+msgid "Full Width"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:68
+msgid "Set the fullwidth option for button."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:72
+msgid "Button Text"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:77
+msgid "Enter Text"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:79
+msgid "Set the text for button."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:83
+msgid "Text Color"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:88
+msgid "Set the color for button text."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:92
+msgid "Background Color"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:97
+msgid "Set the color for button background."
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:101
+msgid "Link"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:105
+msgid "Enter URL"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:107
+msgid "Enter the URL for button link"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:111
+msgid "Target"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:117
+msgid "New tab"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:118
+msgid "Same tab"
+msgstr ""
+
+#: admin/settings/options/shortcodes.php:120
+msgid "Target for opening the URL."
+msgstr ""
+
+#: admin/settings/options/style.php:17
+msgid "Modal Width"
+msgstr ""
+
+#: admin/settings/options/style.php:30 admin/settings/options/style.php:52
+msgid "auto"
+msgstr ""
+
+#: admin/settings/options/style.php:31 admin/settings/options/style.php:53
+#: admin/settings/options/style.php:107 admin/settings/options/style.php:127
+#: admin/settings/options/style.php:147 admin/settings/options/style.php:167
+#: admin/settings/options/style.php:544
+msgid "px"
+msgstr ""
+
+#: admin/settings/options/style.php:32 admin/settings/options/style.php:54
+#: admin/settings/options/style.php:543
+msgid "%"
+msgstr ""
+
+#: admin/settings/options/style.php:35
+msgid "Set Modal Window width"
+msgstr ""
+
+#: admin/settings/options/style.php:39
+msgid "Modal Height"
+msgstr ""
+
+#: admin/settings/options/style.php:57
+msgid "Set Modal Window height."
+msgstr ""
+
+#: admin/settings/options/style.php:61
+msgid "Z-index"
+msgstr ""
+
+#: admin/settings/options/style.php:69
+msgid ""
+"The z-index property specifies the stack order of an element. An element "
+"with greater stack order is always in front of an element with a lower stack "
+"order."
+msgstr ""
+
+#: admin/settings/options/style.php:73 admin/settings/options/style.php:458
+msgid "Location"
+msgstr ""
+
+#: admin/settings/options/style.php:80
+msgid "Center"
+msgstr ""
+
+#: admin/settings/options/style.php:81
+msgid "Top Center"
+msgstr ""
+
+#: admin/settings/options/style.php:82
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/settings/options/style.php:83
+msgid "Left Center"
+msgstr ""
+
+#: admin/settings/options/style.php:84 admin/settings/options/style.php:466
+msgid "Top Left"
+msgstr ""
+
+#: admin/settings/options/style.php:85 admin/settings/options/style.php:468
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/settings/options/style.php:86
+msgid "Right Center"
+msgstr ""
+
+#: admin/settings/options/style.php:87 admin/settings/options/style.php:465
+msgid "Top Right"
+msgstr ""
+
+#: admin/settings/options/style.php:88 admin/settings/options/style.php:467
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/settings/options/style.php:90
+msgid "Specify popup location."
+msgstr ""
+
+#: admin/settings/options/style.php:95
+msgid "Top"
+msgstr ""
+
+#: admin/settings/options/style.php:108 admin/settings/options/style.php:128
+#: admin/settings/options/style.php:148 admin/settings/options/style.php:168
+msgid "em"
+msgstr ""
+
+#: admin/settings/options/style.php:111
+msgid "Property affects the top vertical position of a popup."
+msgstr ""
+
+#: admin/settings/options/style.php:115
+msgid "Bottom"
+msgstr ""
+
+#: admin/settings/options/style.php:131
+msgid "Property affects the bottom vertical position of a popup."
+msgstr ""
+
+#: admin/settings/options/style.php:135
+msgid "Left"
+msgstr ""
+
+#: admin/settings/options/style.php:151
+msgid "Property affects the left horizontal position of a popup."
+msgstr ""
+
+#: admin/settings/options/style.php:155
+msgid "Right"
+msgstr ""
+
+#: admin/settings/options/style.php:171
+msgid "Property affects the right horizontal position of a popup."
+msgstr ""
+
+#: admin/settings/options/style.php:175 admin/settings/options/style.php:404
+msgid "Animation"
+msgstr ""
+
+#: admin/settings/options/style.php:182
+msgid "Set the Animation for popup."
+msgstr ""
+
+#: admin/settings/options/style.php:186 admin/settings/options/style.php:311
+msgid "Padding"
+msgstr ""
+
+#: admin/settings/options/style.php:197
+msgid ""
+"Used to generate space around a popup content, inside of any defined borders."
+msgstr ""
+
+#: admin/settings/options/style.php:201
+msgid "Radius"
+msgstr ""
+
+#: admin/settings/options/style.php:212
+msgid "Defines the radius of the corners for popup."
+msgstr ""
+
+#: admin/settings/options/style.php:216
+msgid "Shadow"
+msgstr ""
+
+#: admin/settings/options/style.php:233
+msgid "Attaches shadows to an popup"
+msgstr ""
+
+#: admin/settings/options/style.php:237
+msgid "Shadow Color"
+msgstr ""
+
+#: admin/settings/options/style.php:243
+msgid "The color of the shadow."
+msgstr ""
+
+#: admin/settings/options/style.php:247 admin/settings/options/style.php:498
+msgid "Background"
+msgstr ""
+
+#: admin/settings/options/style.php:253
+msgid "Background of popup."
+msgstr ""
+
+#: admin/settings/options/style.php:257
+msgid "Background Image"
+msgstr ""
+
+#: admin/settings/options/style.php:262
+msgid "Enter Image URL"
+msgstr ""
+
+#: admin/settings/options/style.php:270
+msgid "Set the image for popup background."
+msgstr ""
+
+#: admin/settings/options/style.php:276
+msgid "Font Family"
+msgstr ""
+
+#: admin/settings/options/style.php:283
+msgid "Use Your Themes"
+msgstr ""
+
+#: admin/settings/options/style.php:292
+msgid "Select the Font for Content."
+msgstr ""
+
+#: admin/settings/options/style.php:296
+msgid "Main Font Size"
+msgstr ""
+
+#: admin/settings/options/style.php:307
+msgid "Set the main Font size for content."
+msgstr ""
+
+#: admin/settings/options/style.php:320
+msgid "Specify popup content inner padding."
+msgstr ""
+
+#: admin/settings/options/style.php:324
+msgid "Border Style"
+msgstr ""
+
+#: admin/settings/options/style.php:331
+msgid "None"
+msgstr ""
+
+#: admin/settings/options/style.php:332
+msgid "Solid"
+msgstr ""
+
+#: admin/settings/options/style.php:333
+msgid "Dotted"
+msgstr ""
+
+#: admin/settings/options/style.php:334
+msgid "Dashed"
+msgstr ""
+
+#: admin/settings/options/style.php:335
+msgid "Double"
+msgstr ""
+
+#: admin/settings/options/style.php:336
+msgid "Groove"
+msgstr ""
+
+#: admin/settings/options/style.php:337
+msgid "Inset"
+msgstr ""
+
+#: admin/settings/options/style.php:338
+msgid "Outset"
+msgstr ""
+
+#: admin/settings/options/style.php:339
+msgid "Ridge"
+msgstr ""
+
+#: admin/settings/options/style.php:341
+msgid "Choose a border style."
+msgstr ""
+
+#: admin/settings/options/style.php:346
+msgid "Border Thickness"
+msgstr ""
+
+#: admin/settings/options/style.php:357
+msgid "Specify border width."
+msgstr ""
+
+#: admin/settings/options/style.php:361
+msgid "Border Radius"
+msgstr ""
+
+#: admin/settings/options/style.php:372
+msgid "Specify border radius."
+msgstr ""
+
+#: admin/settings/options/style.php:376
+msgid "Border Color"
+msgstr ""
+
+#: admin/settings/options/style.php:400
+msgid "Shows or hides the popup overlay."
+msgstr ""
+
+#: admin/settings/options/style.php:411
+msgid "Set the Animation for overlay."
+msgstr ""
+
+#: admin/settings/options/style.php:417
+msgid "Close button"
+msgstr ""
+
+#: admin/settings/options/style.php:424 admin/settings/options/style.php:448
+msgid "Text"
+msgstr ""
+
+#: admin/settings/options/style.php:425
+msgid "Icon"
+msgstr ""
+
+#: admin/settings/options/style.php:426
+msgid "Box"
+msgstr ""
+
+#: admin/settings/options/style.php:428
+msgid "Enable close button for the popup and sets the style."
+msgstr ""
+
+#: admin/settings/options/style.php:433
+msgid "Size"
+msgstr ""
+
+#: admin/settings/options/style.php:444
+msgid "Sets close button size"
+msgstr ""
+
+#: admin/settings/options/style.php:454
+msgid "Sets the button text."
+msgstr ""
+
+#: admin/settings/options/style.php:470
+msgid "Location the button."
+msgstr ""
+
+#: admin/settings/options/style.php:474
+msgid "Place"
+msgstr ""
+
+#: admin/settings/options/style.php:481
+msgid "Inside"
+msgstr ""
+
+#: admin/settings/options/style.php:482
+msgid "Outside"
+msgstr ""
+
+#: admin/settings/options/style.php:484
+msgid "Places the button relative to the popup."
+msgstr ""
+
+#: admin/settings/options/style.php:488
+msgid "Color"
+msgstr ""
+
+#: admin/settings/options/style.php:494
+msgid "Sets close button color"
+msgstr ""
+
+#: admin/settings/options/style.php:504
+msgid "Sets close button background"
+msgstr ""
+
+#: admin/settings/options/style.php:510
+msgid "Show on mobile"
+msgstr ""
+
+#: admin/settings/options/style.php:527
+msgid ""
+"Enables the popup on smaller devices and Sets the breakpoint for smaller "
+"devices."
+msgstr ""
+
+#: admin/settings/options/style.php:531
+msgid "Width"
+msgstr ""
+
+#: admin/settings/options/style.php:548
+msgid "Set the popup width on the mobile devices."
+msgstr ""
+
+#: admin/settings/settings.php:47
+msgid "You can open popup via adding to the element:"
+msgstr ""
+
+#: admin/settings/settings.php:67
+msgid "Closing Popup"
+msgstr ""
+
+#: admin/settings/settings.php:78
+msgid "You can сlose popup via adding to the element:"
+msgstr ""
+
+#: admin/settings/shortcodes.php:60
+msgid "Preview Button"
+msgstr ""
+
+#: admin/settings/shortcodes.php:67
+msgid "Shortcode"
+msgstr ""
+
+#: admin/settings/style.php:24
+msgid "Popup"
+msgstr ""
+
+#: admin/settings/style.php:108 admin/settings/tabs.php:14
+msgid "Content"
+msgstr ""
+
+#: admin/settings/style.php:145
+msgid "Close Button"
+msgstr ""
+
+#: admin/settings/style.php:184
+msgid "Mobile Devices"
+msgstr ""
+
+#: admin/settings/tabs.php:15
+msgid "Style"
+msgstr ""
+
+#: admin/settings/tabs.php:17
+msgid "Display Rules"
+msgstr ""
+
+#: popup-box.php:118 popup-box.php:130
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Popup Box"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/popup-box/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily create Powered Popups."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wow-estore.com/"
+msgstr ""
