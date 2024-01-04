@@ -8,6 +8,7 @@
     <title>FANDF-SUPERMARKET||GROCERY SHOP||RETAIL SHOP</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
     <link rel="stylesheet" href="./fonting/font-awesome.min.css">
     <link rel="icon" href="./img-ff/icon.png">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -19,7 +20,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./swiper-carousel-scroller-stonehenge/dist/stonehenge.css">
+    <link rel="stylesheet" href="./swiper-carousel-scroller-stonehenge/dist/stonehenge.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </head>
 
@@ -38,13 +40,11 @@
                 </select>
             </div>
             <div class="col-6 text-end ">
-                <i class="fa fa-phone mx-3">
-                    <p>99099 90880</p>
-                </i>
+
                 <i class="fa fa-user-plus"> <a href="#" class="link">Login | SignUp</a></i>
             </div>
         </div>
-        <div class="mx-sm-5 p-3">
+        <div class="mx-sm-5 p-3 text-lg-center">
             <img class="mt-2 mx-3 " src="./img-ff/fands_shop_logo.png" alt="fandf logo" width="300" class="nav-brand">
         </div>
 
@@ -59,152 +59,104 @@
                 </button><i class="fa fa-shopping-cart cart"></i>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-4">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-4">
                             <a class="nav-link" href="#">Register</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Grocery
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Milk and Diary</a></li>
-                                <li><a class="dropdown-item" href="#">Dhal</a></li>
-                                <li><a class="dropdown-item" href="#">Masala items</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-4">
                             <a class="nav-link ">My list</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-4">
                             <a class="nav-link ">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search for products.."
+                        <input class="form-control me-lg-4" type="search" placeholder="Search for products..."
                             aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleSlidesOnly" class="carousel slide pt-1" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img-ff/c1.jpg" alt="First slide">
-                    <div class=" py-5 carousel-caption d-md-block">
-                        <h5 class="text-primary fw-bold">Fresh and Healthy <br> Organic</h5>
-                        <p class="text-danger fw-bold font-monospace text-uppercase">welcome to FF Supermarket</p>
-                        <button class="btn btn-outline-primary">Let's order</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./img-ff/c2.jpg" alt="Second slide">
-                    <div class=" my-5 me-5 carousel-caption  d-md-block mycarous">
-                        <h5 class="text-primary fw-bold">A place where everything special</h5>
-                        <p class="text-danger fw-bold font-monospace text-uppercase">welcome to FF Supermarket</p>
-                        <button class="btn btn-outline-primary">Let's order</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./img-ff/c3.jpg" alt="Third slide">
-                    <div class="mb-5 ms-5 carousel-caption  d-md-block mycarous">
-                        <h5 class="text-primary fw-bold">Looking for fresh organic food</h5>
-                        <p class="text-danger fw-bold font-monospace text-uppercase">welcome to FF Supermarket</p>
-                        <button class="btn btn-outline-primary">Let's order</button>
-                    </div>
-                </div>
+    </header>
+    <div class="container mt-3">
+        <span class=" dropdown ">
+            <button type="button" class="btn dropdown-toggle mydropdown catagory" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" id="dropdownmenu">
+                Category
+            </button>
+            <div class="container width bg-secondary">
+                <marquee behavior="scroll" scrollamount="10" direction="left">
+                    Note: Purchase above 1000rs for elgible FREE DELIVERY! and we are available 24/7 support.
+                </marquee>
             </div>
-        </div>
-        <div>
-            <h3 class="mt-5 my-5 d-inline">Top 
-                Saver Today
-            </h3><img src="./img-ff/Time management-bro.svg" alt="time" width="50px">
-        </div>
-        <div class="stonehenge">
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownmenu">
+                <div class="dropright">
+                    <button class="btn dropdown-toggle" type="button" id="groceryButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Grocery
+                    </button>
+                    <div class="dropdown-menu optionmenu" aria-labelledby="groceryButton">
+                        <a class="dropdown-item" href="#">Rice</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Dhal</a>
+                        <div class="dropdown-divider"></div>
                     </div>
                 </div>
-            </div>
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
+                <!-- ----------------grocery----------- -->
+                <div class="dropdown-divider"></div>
+                <div class="dropright">
+                    <button class="btn dropdown-toggle" type="button" id="teaButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Tea & Coffee powders
+                    </button>
+                    <div class="dropdown-menu optionmenu" aria-labelledby="teaButton">
+                        <a class="dropdown-item" href="#">Tea</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Coffee</a>
+                        <div class="dropdown-divider"></div>
                     </div>
                 </div>
-            </div>
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
+                <!-- --------------------------tea cofee=------------- -->
+                <div class="dropdown-divider"></div>
+                <div class="dropright">
+                    <button class="btn dropdown-toggle" type="button" id="hairButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Hair care
+                    </button>
+                    <div class="dropdown-menu optionmenu" aria-labelledby="hairButton">
+                        <a class="dropdown-item" href="#">Hair oil</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Hair Shampoo</a>
+                        <div class="dropdown-divider"></div>
                     </div>
                 </div>
-            </div>
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
+                <!-- -------------------hair care-------------- -->
+                <div class="dropdown-divider"></div>
+                <div class="dropright">
+                    <button class="btn dropdown-toggle" type="button" id="detergentButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Detergent
+                    </button>
+                    <div class="dropdown-menu optionmenu" aria-labelledby="detergentButton">
+                        <a class="dropdown-item" href="#">Detergent Washer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Detergent Soap</a>
+                        <div class="dropdown-divider"></div>
                     </div>
                 </div>
+                <div class="dropdown-divider"></div>
+
             </div>
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img-ff/1-carrot-png-image.png" class="card-img-top" alt="carrot">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Organic Carrot</h6>
-                        <p>₹30/kg</p>
-                        <a href="#" class="ms-5  card-link btn btn-outline-success "><i class="fa fa-shopping-basket"></i>Buy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        </span>
+    </div>
+    <div class="container mt-3">
+        <!-- <img src="./img-ff/pexels-anna-shvets-3962283.jpg" class="img-fluid" alt="img"  > -->
+
+    </div>
 
 
 
@@ -214,25 +166,13 @@
 
 
 
-
-
-
-        <script>
-            $(document).ready(function () {
-                $('.stonehenge').stonehenge({
-                    speed: 2.0
-                });
-            });
-        </script>
-        <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-    ></script>
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <script src="./bootstrap-4.0.0/js/src/carousel.js"></script>
-        <script src="./swiper-carousel-scroller-stonehenge/dist/stonehenge.js"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 
