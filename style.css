@@ -77,8 +77,8 @@
 
 
 
-.navbar-toggler {
-    color: #2745fa;
+.navbar-toggler:focus {
+    box-shadow: 3px 4px 10px #5fd144;
 }
 
 .container .dropdown .catagory {
