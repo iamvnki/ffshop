@@ -8,6 +8,7 @@
     <title>FANDF-SUPERMARKET||GROCERY SHOP||RETAIL SHOP</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./hamburgers-master/dist/hamburgers.css">
     <script src="myscript.js"></script>
     <link rel="stylesheet" href="./fonting/font-awesome.min.css">
     <link rel="icon" href="./img-ff/icon.png">
@@ -44,20 +45,21 @@
                 <i class="fa fa-user-plus"> <a href="#" class="link">Login | SignUp</a></i>
             </div>
         </div>
-        <div class="mx-sm-5 p-3 text-lg-center">
+        <div class="mx-sm-5 p-3 text-center">
             <img class="mt-2 mx-3 " src="./img-ff/fands_shop_logo.png" alt="fandf logo" width="300" class="nav-brand">
         </div>
 
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon icon-nav"></span>
+                <button class=" hamburger hamburger--arrowalt" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupporte   dContent" aria-expanded="false" aria-label="Menu">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
                 </button><i class="fa fa-shopping-cart cart"></i>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse mt-sm-3" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item px-lg-4">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -83,22 +85,22 @@
     </header>
     <div class="container mt-3">
         <span class=" dropdown ">
-            <button type="button" class="btn dropdown-toggle mydropdown catagory" data-bs-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" id="dropdownmenu">
+            <button type="button" class="btn dropdown-toggle catagory" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" id="dropdownmenu">
                 Category
             </button>
-            <div class="container width bg-secondary">
-                <marquee behavior="scroll" scrollamount="10" direction="left">
+            <div class="container width bg-light">
+                <marquee behavior="scroll" scrollamount="5" direction="left">
                     Note: Purchase above 1000rs for elgible FREE DELIVERY! and we are available 24/7 support.
                 </marquee>
             </div>
             <div class="dropdown-menu" aria-labelledby="dropdownmenu">
-                <div class="dropright">
+                <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="groceryButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Grocery
                     </button>
-                    <div class="dropdown-menu optionmenu" aria-labelledby="groceryButton">
+                    <div class="dropdown-menu " aria-labelledby="groceryButton">
                         <a class="dropdown-item" href="#">Rice</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Dhal</a>
@@ -106,13 +108,13 @@
                     </div>
                 </div>
                 <!-- ----------------grocery----------- -->
-                <div class="dropdown-divider"></div>
-                <div class="dropright">
+                
+                <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="teaButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Tea & Coffee powders
                     </button>
-                    <div class="dropdown-menu optionmenu" aria-labelledby="teaButton">
+                    <div class="dropdown-menu " aria-labelledby="teaButton">
                         <a class="dropdown-item" href="#">Tea</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Coffee</a>
@@ -120,13 +122,13 @@
                     </div>
                 </div>
                 <!-- --------------------------tea cofee=------------- -->
-                <div class="dropdown-divider"></div>
-                <div class="dropright">
+                
+                <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="hairButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Hair care
                     </button>
-                    <div class="dropdown-menu optionmenu" aria-labelledby="hairButton">
+                    <div class="dropdown-menu " aria-labelledby="hairButton">
                         <a class="dropdown-item" href="#">Hair oil</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Hair Shampoo</a>
@@ -134,27 +136,62 @@
                     </div>
                 </div>
                 <!-- -------------------hair care-------------- -->
-                <div class="dropdown-divider"></div>
-                <div class="dropright">
+                
+                <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="detergentButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Detergent
                     </button>
-                    <div class="dropdown-menu optionmenu" aria-labelledby="detergentButton">
+                    <div class="dropdown-menu " aria-labelledby="detergentButton">
                         <a class="dropdown-item" href="#">Detergent Washer</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Detergent Soap</a>
                         <div class="dropdown-divider"></div>
                     </div>
                 </div>
-                <div class="dropdown-divider"></div>
+                
 
             </div>
 
         </span>
     </div>
-    <div class="container mt-3">
-        <!-- <img src="./img-ff/pexels-anna-shvets-3962283.jpg" class="img-fluid" alt="img"  > -->
+    <!-- <div class="container mt-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-6 text-lg-center">
+                            <img src="https://www.postermywall.com/index.php/posterbuilder/view/c10ae6104795d903946a8322959da   ae9/0"
+                                alt="carr" width="200px">
+                        </div>
+                        <div class="col-6">
+                            <h1>hellow welcome</h1>
+                            <button class="btn btn-outilne-success">check out </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img-ff/c2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img-ff/c3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+
 
     </div>
 
@@ -172,7 +209,18 @@
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+            <script>
+                var forEach = function (t, o, r) { if ("[object Object]" === Object.prototype.toString.call(t)) for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0, l = t.length; l > e; e++)o.call(r, t[e], e, t) };
 
+                var hamburgers = document.querySelectorAll(".hamburger");
+                if (hamburgers.length > 0) {
+                    forEach(hamburgers, function (hamburger) {
+                        hamburger.addEventListener("click", function () {
+                            this.classList.toggle("is-active");
+                        }, false);
+                    });
+                }
+            </script>
 </body>
 
 

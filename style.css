@@ -18,10 +18,18 @@
 
 .container .row select {
     width: fit-content;
-    color: #5fd144;
+    color: #ffff;
     border-radius: 5px;
-    border-color: #5fd144;
+    background-color: #2745fa;
+    transition: 0.5s;
+    padding: 2px;
+    border: none;
 
+}
+.container .row select:hover{
+    color: #2745fa;
+    background-color: #ffff;
+    border:none;
 }
 
 .container .row p {
@@ -58,18 +66,16 @@
     }
 }
 
-.container-fluid .navbar-toggler {
+/* .container-fluid .navbar-toggler {
     color: #2745fa !important;
     border: none;
     border-radius: 40px;
     padding: 4px;
     box-shadow: 2px 1px 6px #5fd144;
-    transition: 7s;
-}
+    transition: 7s; 
+}*/
 
-.icon-nav:active:hover {
-    transform: rotate(120deg) !important;
-}
+
 
 .navbar-toggler {
     color: #2745fa;
@@ -77,16 +83,16 @@
 
 .container .dropdown .catagory {
     border-radius: 40px;
-    color: #d90404;
+    color: #ffff;
     font-weight: 300;
     transition: 0.5s;
-    background-color: rgb(248, 220, 158);
+    background-color: #2745fa;
     box-shadow: 1px 0px 3px black;
 }
 
 .container .dropdown .catagory:hover {
-    color: #ffff;
-    background-color: #5fd144;
+    color:#2745fa;
+    background-color: #ffff;
 
 }
 
@@ -116,18 +122,19 @@
     margin-left: 110px;
     margin-top: -30px;
     border-radius: 10px;
+    /* background-color: rgb(241, 240, 240); */
 }
 
 marquee {
-    color: white;
+    color:#d90404;
     padding-top: 5px;
 }
+.username-label{
+    color: #d90404;
 
-.marginright {
-    margin-left: 200px;
-    display: none;
 }
-
-.optionmenu {
-    margin-left: 90px;
+.input-placeholder{
+    border: none;
+    padding: 5px;
+    display: block;
 }
